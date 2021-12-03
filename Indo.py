@@ -170,9 +170,9 @@ def menu():
     print(" \x1b[1;92m[\x1b[1;93m02\x1b[1;92m] \x1b[1;92mCRACK DARI ID MASAL")
     print(" \x1b[1;92m[\x1b[1;93m03\x1b[1;92m] \x1b[1;92mCRACK DARI ID FOLLOWERS")
     print(" \x1b[1;92m[\x1b[1;93m04\x1b[1;92m] \x1b[1;92mCRACK DARI POSTINGAN")
-    print(" [04]. CRACK DARI ID POSTINGAN")
-    print(" [05]. CHECK OPSI CEKPOINT")
-    print(" [06]. CHECK HASIL CRACK")
+    print(" \x1b[1;92m[\x1b[1;93m01\x1b[1;92m] \x1b[1;92mCHECK OPSI HASIL CRACK")
+    print(" \x1b[1;92m[\x1b[1;93m02\x1b[1;92m] \x1b[1;92mCHECK HASIL CRACK")
+     print(" \x1b[1;92m[\x1b[1;93m03\x1b[1;92m] \x1b[1;92mLAPORAN SCRIPT")
     print(" [%s00%s]. REMOVE TOKEN"%(M,N))
     asw = raw_input("\n [?] pilih  : \x1b[1;92m")
     if asw == "":
@@ -468,6 +468,16 @@ def cek_game(cookie):
 	else:
 		for i in range(len(game)):
 			print("   %s%s. %s%s"%(H,i+1,game[i].replace("Ditambahkan pada",""),N))
+
+
+### LAPOR BUG SCRIPT ###
+def laporbug():
+	asulo = input("\n [?] masukan laporan bug script : ").replace(' ','%10')
+	if asulo == "":
+		menu()
+	os.system('xdg-open https://wa.me/6282329761867?text=' +asulo)
+	input("\n [*] tekan enter untuk kembali ke menu")
+	menu()
 
 ### BAGIAN SANDI ####
 def atursandi():
