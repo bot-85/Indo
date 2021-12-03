@@ -158,7 +158,7 @@ def menu():
         exit(" %s[!] anda tidak terhubung ke internet!"%(M))
 
     logo()
-    print(" %s[*] Author     : \x1b[1;92mBINTANG-XD"%(N))
+    print(" %s[*] Author     : %s\x1b[1;92mBINTANG-XD"%(N))")
     print(" [*] Github     : https://github.com/Fall-Xavier")
     print(" [*] --------------------------------------------")
     print(" [*] Bergabung  : %s"%(tgl))
