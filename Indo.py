@@ -173,7 +173,7 @@ def menu():
     print(" \x1b[1;92m[\x1b[1;93m05\x1b[1;92m] \x1b[1;92mCHECK OPSI HASIL CRACK")
     print(" \x1b[1;92m[\x1b[1;93m06\x1b[1;92m] \x1b[1;92mCHECK HASIL CRACK")
     print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m] \x1b[1;92mLAPORAN SCRIPT")
-    print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m] \x1b[1;91mREMOVE TOKEN"%(M,N))
+    print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m] \x1b[1;91mREMOVE TOKEN")
     asw = raw_input("\n [?] pilih  : \x1b[1;93m")
     if asw == "":
     	menu()
